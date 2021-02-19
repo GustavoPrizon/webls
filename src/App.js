@@ -26,6 +26,7 @@ function App() {
             <ul>
               <li><a href="">Home</a></li>
               <li><a href="#services">Serviços</a></li>
+              <li><a href="#about">Quem Somos</a></li>
               <li><a href="#contact">Contato</a></li>
             </ul>
           </nav>
@@ -52,7 +53,7 @@ function App() {
           <div className="col-offset col-md-8 offset-md-2">
             <div className="section-title text-center">
               <h2>Pegar texto com a Carol</h2>
-              <h6>Nossos Serviços</h6>
+              <h3>Nossos Serviços</h3>
             </div>
           </div>
           <div className="col-offest hover-item">
@@ -124,6 +125,41 @@ function App() {
         </div>
       </div>
     </section>
+    <sectio id="about" className="about">
+      <div className="about-one">
+        <div className="overlay"></div>
+        <div className="container">
+          <div className="row-about">
+            <div className="col-offset img-about-one">
+              <div className="about-img">
+                <div className="overlay-about">
+                  <div className="text-overlay">
+                    <div className="pos-text">
+                      1 Ano
+                      <span>Serviços de confiança</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-offset">
+              <div className="info-about">
+                <div className="section-title-left">
+                  <h2 style={{fontWeight: 'bold'}}>Reparos...</h2>
+                  <h3 style={{color: '#fff'}}>Quem Somos</h3>
+                </div>
+                <p className="grey-color">
+                  Texto sobre vocês
+                </p>
+                <div className="btn-about">
+                  <a href="https://api.whatsapp.com/send?phone=5519995032828" target="_blank" className="btn-two">(19) 99503-2828</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </sectio>
     </div>
   );
 }

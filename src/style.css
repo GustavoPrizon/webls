@@ -187,7 +187,7 @@ section.services{
   text-align: center;
 }
 
-.section-title h2{
+.section-title h2, .section-title-left h2{
   color: rgb(1,33,98);
   display: block;
   text-transform: capitalize;
@@ -199,7 +199,7 @@ section.services{
   margin: 0;
 }
 
-.section-title h6{
+.section-title h3, .section-title-left h3{
   color: #000;
   text-transform: capitalize;
   font-size: 50px;
@@ -267,4 +267,121 @@ p{
   font-weight: 500;
   color: #333;
   margin-top: 0;
+}
+
+.about-one{
+  background-image: url('./assets/background.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  padding: 100px 0;
+}
+
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(0,0,0,0.5) 0%, hsla(238, 29%, 19%, 0.9) 100%);
+}
+
+.about-one .img-about-one{
+  padding-right: 25px;
+}
+
+.about-img{
+  background-image: url('./assets/about.jpg');
+  top: 0;
+  left: 0;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  min-height: 318px;
+}
+
+.about-one .overlay-about{
+  padding: 10px;
+  height: 100%;
+}
+
+.about-one .text-overlay{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #fff;
+  background-color: rgba(35,35,58, 0.2);
+  position: relative;
+}
+
+.about-one .pos-text{
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 60px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.about-one .pos-text span{
+  display: block;
+  font-size: 12px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.section-title-left{
+  margin-bottom: 50px;
+}
+
+.info-about p{
+  font-size: 19px;
+  margin-bottom: 30px;
+  padding-right: 0px;
+}
+
+.grey-color{
+  color: #eee;
+}
+
+.row-about{
+  display: flex;
+  margin: 0 -15px;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn-about .btn-two{
+  z-index: 2;
+  position: relative;
+  background-color: rgb(1,33,98);
+  box-shadow: -5px 10px 15px -15px #fff;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.btn-two{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 15px; 
+  line-height: 51px;
+  letter-spacing: 0.26px;
+  text-decoration: none;
 }
