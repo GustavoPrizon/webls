@@ -1,0 +1,270 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+.center{
+  max-width: 1280px;
+  padding: 0 2%;
+  margin: 0 auto;
+}
+
+.clear{
+  clear: both;
+}
+
+.App{
+  position: relative;
+  background-image: url('./assets/background.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 15px 0;
+  min-height: 700px;
+}
+
+.layer{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+.App header{
+  z-index: 2;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+.icons-social{
+  float: right;
+}
+
+.icons-social a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 15px;
+}
+
+.logo{
+  float: left;
+  font-size: 23px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+}
+
+nav.desktop{
+  float: right;
+  margin-top: 20px;
+}
+
+nav.desktop ul{
+  list-style-type: none;
+}
+
+nav.desktop li{
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+nav.desktop a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.into-header h1{
+  z-index: 2;
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  font-size: 60px;
+  text-align: left;
+  margin: 15vh 0 20px 5vh;
+  white-space: nowrap;
+}
+
+.text-header{
+  z-index: 2;
+  position: relative;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0 0 35px 5vh;
+}
+
+.text-header h6{
+  font-size: 40px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1;
+}
+
+.btn-header .btn-one{
+  z-index: 2;
+  position: relative;
+  background-color: rgb(1,33,98);
+  box-shadow: -5px 10px 15px -15px #fff;
+  color: #fff;
+  border-radius: 8px;
+  margin-left: 5vh;
+}
+
+.btn-one{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 15px; 
+  line-height: 51px;
+  letter-spacing: 0.26px;
+  text-decoration: none;
+}
+
+section.services{
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+
+.container{
+  width: 1024px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (min-width: 768px){
+  .offset-md-2{
+    margin-left: 16.666667%;
+  }
+  .col-md-8{
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
+}
+
+.col-offset{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding: 0 15px;
+}
+
+.section-title{
+  margin-bottom: 60px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.section-title h2{
+  color: rgb(1,33,98);
+  display: block;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 15px;
+  letter-spacing: 0.3px;
+  font-size: 20px;
+  line-height: 0.75;
+  margin: 0;
+}
+
+.section-title h6{
+  color: #000;
+  text-transform: capitalize;
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 992px){
+  .col-lg-4{
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 768px){
+  .col-md-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.hover-item{
+  margin-bottom: 30px;
+}
+
+.hover-item:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.service-item{
+  position: relative;
+  padding: 25px 40px;
+  border: 1px solid #eee;
+  background: #fff;
+  text-align: center;
+}
+
+.icon-service span{
+  color: rgb(1,33,98);
+  font-size: 40px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.service-item h4{
+  color: #17223e;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  margin-top: 15px;
+}
+
+.service-item p{
+  margin-bottom: 0px;
+}
+
+p{
+  line-height: 25px;
+  font-weight: 500;
+  color: #333;
+  margin-top: 0;
+}
