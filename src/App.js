@@ -36,7 +36,7 @@ function App() {
             <h1>Ligue agora</h1>
           </div>
           <div className="text-header">
-            Pegar texto com a Carol
+            <p style={{color: 'red', fontWeight: 'bold'}}>Pegar texto com a Carol</p>
             <br/>
             <h6>(19) 99503-2828</h6>
           </div>
