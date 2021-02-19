@@ -2,6 +2,11 @@
 import './style.css'
 import {FaFacebook, FaInstagram, FaWhatsapp} from 'react-icons/fa';
 import serv1 from './assets/serv1.jpg';
+import serv2 from './assets/serv2.jpg';
+import serv3 from './assets/serv3.jpg';
+import serv4 from './assets/serv4.jpg';
+import serv5 from './assets/serv5.jpg';
+import serv6 from './assets/serv6.jpg';
 
 function App() {
   return (
@@ -11,9 +16,9 @@ function App() {
       <div className="center">
         <header>
           <div className="icons-social">
-            <a href=""><FaFacebook/></a>
-            <a href=""><FaInstagram/></a>
-            <a href=""><FaWhatsapp/></a>
+            <a href="https://www.facebook.com/LOPESESILVAMANUTENCOES"><FaFacebook/></a>
+            <a href="https://www.instagram.com/lopesesilvamanutencoes/"><FaInstagram/></a>
+            <a href="https://api.whatsapp.com/send?phone=5519995032828"><FaWhatsapp/></a>
           </div>
           <div className="clear"></div>
           <div className="logo">LS Manutenções</div>
@@ -36,7 +41,7 @@ function App() {
             <h6>(19) 99503-2828</h6>
           </div>
           <div className="btn-header">
-            <a href="" target="_blank"className="btn-one">Fale por Whatsapp</a>
+            <a href="https://api.whatsapp.com/send?phone=5519995032828" target="_blank"className="btn-one">Fale por Whatsapp</a>
           </div>
         </div>
       </div>
@@ -57,63 +62,63 @@ function App() {
                   <img src={serv1} alt=""/>
                 </span>
               </div>
-              <h4>Serviços Gerais</h4>
-              <p>LS Manutenções</p>
+              <h4>Serviços em geral</h4>
+              <p>Marido de aluguel</p>
             </div>
           </div>
           <div className="col-offest hover-item">
             <div className="service-item">
               <div className="icon-service">
                 <span>
-                <img src={serv1} alt=""/>
+                <img src={serv2} alt=""/>
                 </span>
               </div>
-              <h4>Serviços Gerais</h4>
-              <p>LS Manutenções</p>
+              <h4>Hidraúlica</h4>
+              <p>Reparo de vazamentos</p>
             </div>
           </div>
           <div className="col-offest hover-item">
             <div className="service-item">
               <div className="icon-service">
                 <span>
-                <img src={serv1} alt=""/>
+                <img src={serv3} alt=""/>
                 </span>
               </div>
-              <h4>Serviços Gerais</h4>
-              <p>LS Manutenções</p>
+              <h4>Elétrica</h4>
+              <p>Eletricista especializado</p>
             </div>
           </div>
           <div className="col-offest hover-item">
             <div className="service-item">
               <div className="icon-service">
                 <span>
-                <img src={serv1} alt=""/>
+                <img src={serv4} alt=""/>
                 </span>
               </div>
-              <h4>Serviços Gerais</h4>
-              <p>LS Manutenções</p>
+              <h4>Pintura</h4>
+              <p>Serviços de pintura</p>
             </div>
           </div>
           <div className="col-offest hover-item">
             <div className="service-item">
               <div className="icon-service">
                 <span>
-                <img src={serv1} alt=""/>
+                <img src={serv5} alt=""/>
                 </span>
               </div>
-              <h4>Serviços Gerais</h4>
-              <p>LS Manutenções</p>
+              <h4>Instalações</h4>
+              <p>Ar condicionado e manunteção</p>
             </div>
           </div>
           <div className="col-offest hover-item">
             <div className="service-item">
               <div className="icon-service">
                 <span>
-                <img src={serv1} alt=""/>
+                <img src={serv6} alt=""/>
                 </span>
               </div>
-              <h4>Serviços Gerais</h4>
-              <p>LS Manutenções</p>
+              <h4>Reparos em geral</h4>
+              <p style={{color: 'red'}}>coloco o que aqui?</p>
             </div>
           </div>
         </div>
