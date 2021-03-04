@@ -149,7 +149,8 @@ function App() {
                   <h3 style={{color: '#fff'}}>Quem Somos</h3>
                 </div>
                 <p className="grey-color">
-                  Texto sobre vocês
+                  Oferecemos serviços de manutenções, instalações diversas e pequenos reparos em residências, comércios e empresas.
+                  Estou a mais de 5 anos no mercado, sempre nos preocupando com o seu tempo e bem-estar.
                 </p>
                 <div className="btn-about">
                   <a href="https://api.whatsapp.com/send?phone=5519995032828" target="_blank" className="btn-two">(19) 99503-2828</a>
